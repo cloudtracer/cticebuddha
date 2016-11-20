@@ -38,7 +38,7 @@ def parseFile(filename, filetype):
 		import gif
 		p = gif.Parser()
 	elif filetype == 'pe':
-		import pe
+		import pefilenew
 		p = pe.Parser()
 	elif filetype == 'mach_o':
 		import mach_o
